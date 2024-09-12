@@ -495,7 +495,67 @@ footer .social-media a:hover {
   }
 
   /* Footer Adjustments */
+  /* iPhone SE (1st generation) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  /* Footer Adjustments */
   footer {
     padding: 1rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  footer .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .footer-section {
+    flex: 1 1 100%;
+    margin: 0.5rem 0;
+  }
+
+  footer .footer-section h3 {
+    font-size: 1.2rem;
+  }
+
+  footer .social-media {
+    margin-top: 1rem;
+  }
+
+  footer .social-media a {
+    font-size: 1.2rem;
   }
 }
+
+/* iPhone SE (2nd generation) */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  /* Footer Adjustments */
+  footer {
+    padding: 1.2rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  footer .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .footer-section {
+    flex: 1 1 100%;
+    margin: 0.5rem 0;
+  }
+
+  footer .footer-section h3 {
+    font-size: 1.3rem;
+  }
+
+  footer .social-media {
+    margin-top: 1rem;
+  }
+
+  footer .social-media a {
+    font-size: 1.3rem;
+  }
+}
+
